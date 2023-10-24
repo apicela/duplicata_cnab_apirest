@@ -21,6 +21,7 @@ import java.util.Optional;
 
 @RestController()
 @RequestMapping("/duplicatas")
+@CrossOrigin("*")
 @Slf4j
 @AllArgsConstructor
 public class DuplicataController {
