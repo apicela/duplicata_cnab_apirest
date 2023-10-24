@@ -1,0 +1,10 @@
+<template>
+    <div class="about">
+      <h1>This is an DSADS page</h1>
+    </div>
+  </template>
+  
+  <style>
+  
+  </style>
+  
