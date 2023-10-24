@@ -75,8 +75,11 @@ public class DuplicataService {
             log.info("Duplicata {} recusada. Erros:", errors);
             throw new DuplicataInvalida(mensagemErro);
         }
-        var dto = new Duplicata(2L, cabecalho, rodape, list);
-        return duplicataRepository.save(dto);
+        var duplicata = new Duplicata();
+        duplicata.setCabecalho(cabecalho);
+        duplicata.setTransacoes(list);
+        duplicata.setRodape(rodape);
+        return duplicataRepository.save(duplicata);
     }
 
 
