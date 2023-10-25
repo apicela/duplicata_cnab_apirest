@@ -19,9 +19,9 @@ import HelloWorld from './components/HelloWorld.vue'
         <img src="https://cdn.icon-icons.com/icons2/2351/PNG/512/logo_github_icon_143196.png" alt="Github" style="height: 20px; width: 20px;"/>
       </a>
     </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <RouterLink class="nav-link active" to="/">Inicio</RouterLink>
-        </li>
+        </li> -->
         <li class="nav-item">
           <RouterLink class="nav-link" to="/duplicatas">Duplicatas</RouterLink>
         </li>
