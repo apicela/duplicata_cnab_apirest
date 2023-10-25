@@ -8,7 +8,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: DuplicatasView
+      component: HomeView
     },
     {
       path: '/swagger',
