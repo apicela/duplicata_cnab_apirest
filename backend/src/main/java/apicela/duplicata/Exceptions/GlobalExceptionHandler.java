@@ -17,7 +17,7 @@ public class GlobalExceptionHandler {
         Map<String, Object> response = new LinkedHashMap<>();
         response.put("status", "error.");
         response.put("message", "O arquivo CNAB possui formato inválido.");
-        response.put("errors: ", ex.getMessage());
+        response.put("errors", ex.getMessage());
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(response);
     }
 
@@ -26,7 +26,7 @@ public class GlobalExceptionHandler {
         Map<String, Object> response = new LinkedHashMap<>();
         response.put("status", "error.");
         response.put("message", "O arquivo CNAB possui formato inválido.");
-        response.put("errors: ", ex.getMessage());
+        response.put("errors", ex.getMessage());
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(response);
     }
 
@@ -34,7 +34,7 @@ public class GlobalExceptionHandler {
     public ResponseEntity<Object> handleIllegalAcess(IllegalAccessException ex) {
         Map<String, Object> response = new LinkedHashMap<>();
         response.put("status", "error.");
-        response.put("message: ", ex.getMessage());
+        response.put("message", ex.getMessage());
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(response);
     }
 
@@ -44,7 +44,7 @@ public class GlobalExceptionHandler {
         Map<String, Object> response = new LinkedHashMap<>();
         response.put("status", "error.");
         response.put("message", "O arquivo CNAB possui formato inválido.");
-        response.put("errors: ", ex.getMessage().split("\n"));
+        response.put("errors", ex.getMessage().split("\n"));
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(response);
     }
 
@@ -53,7 +53,7 @@ public class GlobalExceptionHandler {
         Map<String, Object> response = new LinkedHashMap<>();
         response.put("status", "error.");
         response.put("message", "O arquivo CNAB possui formato inválido.");
-        response.put("errors: ", ex.getMessage());
+        response.put("errors", ex.getMessage());
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(response);
     }
 

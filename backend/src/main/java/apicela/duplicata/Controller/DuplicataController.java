@@ -25,6 +25,7 @@ import java.util.Optional;
 @Slf4j
 @AllArgsConstructor
 public class DuplicataController {
+    public static final String ENDPOINT = "/duplicatas";
 
     final DuplicataService duplicataService;
     final LeitorDeArquivo leitorDeArquivo;
