@@ -1,4 +1,4 @@
-# API Rest de duplicatas padrão CNAB
+# API Rest de duplicatas financeiras CNAB
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-000?style=for-the-badge&logo=java&logoColor=white"/>
