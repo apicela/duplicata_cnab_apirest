@@ -4,6 +4,10 @@
 
 
 
+https://github.com/apicela/duplicata_HomeDeveloper_teste/assets/105384228/00f72bc7-6d92-4952-904a-8f1626566861
+
+
+
 
 ## ⚙️ Como configurar aplicação para rodar frontend + backend juntos
 1. Clone este repositório: ``` git clone https://github.com/apicela/duplicata_HomeDeveloper_teste.git ```
