@@ -8,16 +8,16 @@
   <br> <img src="http://img.shields.io/static/v1?label=STATUS&message=concluido&color=RED&style=for-the-badge"/>
 </p>
 
-## O Desafio
+## 	⚠ O Desafio
 
 O desafio consiste na criação de uma aplicação Full Stack utilizando  Java no backend e Vue.js no frontend, o foco da aplicação é a criação de uma API responsável por receber e válidar arquivos(.txt, .pdf) que sigam o layout do padrão CNAB, com o sistema sendo capaz de identificar diferentes tipos de registros.
 Onde, caso aja erros, o sistema deverá rejeitar a transação e enviar mensagens de erros apropriadas para o usuário buscar solucionar o problema. Caso o arquivo esteja dentro dos padrões, deverá registrar as informações da transação no banco de dados.
 
-## Resumo da aplicação
+## 💬 Resumo da aplicação
 
 Desenvolvimento de uma aplicação Full Stack de API Rest, capaz de receber e validar arquivos financeiros que seguem o padrão CNAB.
 
-## Aplicação na prática
+## 💻 Aplicação na prática
 
 https://github.com/apicela/duplicata_HomeDeveloper_teste/assets/105384228/00f72bc7-6d92-4952-904a-8f1626566861
 
@@ -29,7 +29,7 @@ https://github.com/apicela/duplicata_HomeDeveloper_teste/assets/105384228/00f72b
 4. Acesse o link: https://localhost:3000/ 
 
 
-## Padrão formato CNAB
+## 📋 Padrão formato CNAB
 
 ![formato cnab](https://github.com/apicela/duplicata_HomeDeveloper_teste/assets/105384228/9e0c2aee-9221-4b93-9e88-1761b42b0c59)
 
