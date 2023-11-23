@@ -30,8 +30,8 @@ https://github.com/apicela/duplicata_HomeDeveloper_teste/assets/105384228/00f72b
 
 
 ## 📋 Padrão formato CNAB
+![formato cnab](https://github.com/apicela/duplicata_cnab_apirest/assets/105384228/aa3865ec-836e-4e82-99ed-61f93559b4f5)
 
-![formato cnab](https://github.com/apicela/duplicata_HomeDeveloper_teste/assets/105384228/9e0c2aee-9221-4b93-9e88-1761b42b0c59)
 
 #### Exemplo de arquivo válido
 ```
